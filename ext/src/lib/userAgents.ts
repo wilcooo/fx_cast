@@ -6,8 +6,8 @@ const PLATFORM_WIN = "Windows NT 10.0; Win64; x64";
 const PLATFORM_LINUX = "X11; Linux x86_64";
 
 const UA_CHROME =
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36";
-const UA_HYBRID = "Chrome/80.0.3987.87 Gecko/20100101 Firefox/72.0";
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36";
+const UA_HYBRID = "Chrome/104.0.0.0 Gecko/20100101 Firefox/72.0";
 
 export function getChromeUserAgent(platform: string, hybrid = false) {
     let platformComponent: string;
